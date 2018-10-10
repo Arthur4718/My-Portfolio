@@ -14,7 +14,7 @@
         android:layout_marginLeft="8dp"
         app:cardBackgroundColor="@color/colorWebTab"
         android:layout_centerHorizontal="true"
-        app:cardElevation="15dp"
+        app:cardElevation="1dp"
         >
 
         <RelativeLayout
@@ -22,6 +22,16 @@
             android:layout_height="match_parent"
             android:padding="8dp"
             >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_alignParentRight="true"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                app:civ_border_width="0.2dp"
+                android:src="@drawable/avatar"
+                app:civ_border_color="@color/colorAccent"/>
 
 
             <TextView
@@ -46,5 +56,15 @@
                 android:textColor="@color/colorFont"
                 android:text="Android Developer" />
         </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="53dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+
+        >
+
     </android.support.v7.widget.CardView>
 </RelativeLayout>
