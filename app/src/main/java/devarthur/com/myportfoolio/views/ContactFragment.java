@@ -1,4 +1,4 @@
-package devarthur.com.myportfoolio.view;
+package devarthur.com.myportfoolio.views;
 
 
 import android.os.Bundle;
@@ -10,11 +10,11 @@ import android.view.ViewGroup;
 import devarthur.com.myportfoolio.R;
 
 
-public class skillsFragment extends Fragment {
+public class ContactFragment extends Fragment {
 
 
-    public skillsFragment() {
-        // Required empty public constructor
+    public ContactFragment() {
+
     }
 
 
@@ -22,8 +22,9 @@ public class skillsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View skillsView = inflater.inflate(R.layout.fragment_skills, container, false);
-        return skillsView;
+
+        View contactView = inflater.inflate(R.layout.fragment_contact, container, false);
+        return contactView; 
     }
 
 }

@@ -1,4 +1,4 @@
-package devarthur.com.myportfoolio.view;
+package devarthur.com.myportfoolio.views;
 
 
 import android.os.Bundle;
@@ -9,13 +9,11 @@ import android.view.ViewGroup;
 
 import devarthur.com.myportfoolio.R;
 
-/**
- * A simple {@link Fragment} subclass.
- */
-public class WorkFragment extends Fragment {
+
+public class SkillsFragment extends Fragment {
 
 
-    public WorkFragment() {
+    public SkillsFragment() {
         // Required empty public constructor
     }
 
@@ -23,8 +21,9 @@ public class WorkFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View workView = inflater.inflate(R.layout.fragment_work, container, false);
-        return workView; 
+        // Inflate the layout for this fragment
+        View skillsView = inflater.inflate(R.layout.fragment_skills, container, false);
+        return skillsView;
     }
 
 }

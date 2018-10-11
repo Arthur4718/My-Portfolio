@@ -1,4 +1,4 @@
-package devarthur.com.myportfoolio.view;
+package devarthur.com.myportfoolio.views;
 
 
 import android.os.Bundle;
@@ -10,21 +10,21 @@ import android.view.ViewGroup;
 import devarthur.com.myportfoolio.R;
 
 
-public class contactFragment extends Fragment {
+public class AboutFragment extends Fragment {
 
 
-    public contactFragment() {
-
+    public AboutFragment() {
+        // Required empty public constructor
     }
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
 
-        View contactView = inflater.inflate(R.layout.fragment_contact, container, false);
-        return contactView; 
+        View aboutView = inflater.inflate(R.layout.fragment_about, container, false);
+
+        return aboutView;
     }
 
 }
