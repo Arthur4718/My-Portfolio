@@ -22,8 +22,6 @@ public class MainPageAdapter extends FragmentPagerAdapter {
             case 2: return new SkillsFragment();
             case 3: return new WorkFragment();
 
-
-
         }
         return null;
     }
@@ -31,5 +29,19 @@ public class MainPageAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         return 4;
+    }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        switch(position){
+            case 0: return "About";
+            case 1: return "Work";
+            case 2: return "Skills";
+            case 3: return "Contact";
+
+
+
+        }
+        return null;
     }
 }
