@@ -2,6 +2,11 @@
 
 A simple app showcasing the use of TabLayout, ViewPage and Fragments. Its a very simple code and its suited for students or advanced developers looking for examples and code snippets. 
 
+# App contents. 
+
+* ViewPage Element. 
+* Uses intent to call the dialog function from the Android. 
+* Uses TabLayout. 
 
 # Dowloading the app. 
 
